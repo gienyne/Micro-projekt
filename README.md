@@ -79,7 +79,7 @@ The implementation was carried out by a team of seven people, divided into front
 The developed features were integrated and evaluated in an experimental environment.
 A possible productive integration into the platform remains subject to the decision of the project supervisors.
 
---- ## Status
+## Status
 
  Functional prototype with a focus on architecture, data analytics, and system design.
 
