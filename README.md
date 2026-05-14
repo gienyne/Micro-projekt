@@ -1,6 +1,3 @@
-```md id="x8m2pq"
-# MICRO – Analytics and Filesystem Platform
-
 ![Vue.js](https://img.shields.io/badge/Vue.js-Frontend-4FC08D?logo=vue.js&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Backend-7F52FF?logo=kotlin&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Framework-6DB33F?logo=springboot&logoColor=white)
@@ -10,7 +7,7 @@
 ![S3 Storage](https://img.shields.io/badge/S3-Object_Storage-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
----
+# MICRO – Analytics and Filesystem Platform
 
 ## Overview
 
