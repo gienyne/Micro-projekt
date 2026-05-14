@@ -1,58 +1,88 @@
-# MICRO – Analyse- und Filesystem
+```md id="x8m2pq"
+# MICRO – Analytics and Filesystem Platform
 
-## Überblick
-Im Rahmen eines Hochschulprojekts wurde für die Lernplattform MICRO ein skalierbares Analyse- und Filesystem entwickelt.
+![Vue.js](https://img.shields.io/badge/Vue.js-Frontend-4FC08D?logo=vue.js&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-Backend-7F52FF?logo=kotlin&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Framework-6DB33F?logo=springboot&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Metadata-4169E1?logo=postgresql&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-Analytics-FFCC01)
+![S3 Storage](https://img.shields.io/badge/S3-Object_Storage-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-MICRO ermöglicht es Studierenden, eigenen Code direkt auf realer Hardware (Mikrocontrollern) auszuführen, ohne physisch Zugriff auf die Geräte zu benötigen. Die Hardware ist über eine zentralisierte Infrastruktur nahezu rund um die Uhr verfügbar.
+---
 
-Ziel des Projekts war es, sowohl die Verwaltung von Nutzerdateien als auch die Analyse von System- und Nutzungsdaten effizient und skalierbar umzusetzen.
+## Overview
+
+As part of a university project, a scalable analytics and filesystem solution was developed for the learning platform **MICRO**.
+
+MICRO enables students to execute their own code directly on real hardware (microcontrollers) without requiring physical access to the devices. The hardware is accessible through a centralized infrastructure and is available almost around the clock.
+
+The goal of the project was to efficiently and scalably implement both user file management and the analysis of system and usage data.
+
+---
 
 ## Features
 
 ### Filesystem
-- Benutzerbezogener Datei-Explorer (Upload, Download, Ordnerstruktur)
-- Versionierung von Dateien (Historie bleibt erhalten, aktive Version sichtbar)
-- Prototypische File-Sharing-Funktionalität
-- Trennung von Metadaten und Dateiinhalt zur besseren Skalierbarkeit
 
-### Analyse-Dashboard (Admin)
-- Visualisierung von Nutzungs- und Systemdaten
-- Analysebereiche:
-  - Nutzeraktivität
-  - Hardware-Stationen
-  - Dateinutzung
-  - Fehleranalyse
-- Dynamische Diagramme mit Zeitraumauswahl
-- Unterstützung bei Monitoring und frühzeitiger Fehlererkennung
+- User-based file explorer (upload, download, folder structure)
+- File versioning (history preserved while displaying the active version)
+- Prototype file-sharing functionality
+- Separation of metadata and file content for improved scalability
 
-## Architektur
-Die Anwendung wurde mit Fokus auf Skalierbarkeit, Wartbarkeit und klare Systemtrennung entwickelt.
+### Analytics Dashboard (Admin)
 
-### Technologien
+- Visualization of usage and system data
+- Analysis categories:
+  - User activity
+  - Hardware stations
+  - File usage
+  - Error analysis
+- Dynamic charts with selectable time ranges
+- Support for monitoring and early error detection
+
+---
+
+## Architecture
+
+The application was designed with a strong focus on scalability, maintainability, and clear system separation.
+
+### Technologies
+
 - Frontend: Vue.js
-- Backend: Kotlin mit Spring Boot
-- Containerisierung: Docker
+- Backend: Kotlin with Spring Boot
+- Containerization: Docker
 
-### Datenhaltung
-- PostgreSQL: Speicherung von Datei-Metadaten
-- ClickHouse: Analyse großer Mengen an Nutzungsdaten
-- Garage S3: Skalierbarer Objektspeicher für Dateien
+### Data Storage
 
-Durch die Kombination unterschiedlicher Speichersysteme wird eine effiziente Verarbeitung sowohl transaktionaler als auch analytischer Daten ermöglicht.
+- PostgreSQL: Storage of file metadata
+- ClickHouse: Analysis of large-scale usage data
+- Garage S3: Scalable object storage for files
 
-## Technische Schwerpunkte
-- Entwicklung und Design von REST-APIs
-- Integration mehrerer spezialisierter Datenbanksysteme
-- Verarbeitung und Analyse großer Datenmengen
-- Skalierbare Storage-Architektur
-- Containerisierte Entwicklungs- und Laufzeitumgebung
+By combining multiple storage systems, the platform efficiently handles both transactional and analytical workloads.
 
-## Projektkontext
-Dieses Projekt entstand im Rahmen des Moduls Softwaretechnikprojekt an der Technischen Hochschule Mittelhessen.
+---
 
-Die Umsetzung erfolgte durch ein Team von sieben Personen, aufgeteilt in Frontend- und Backend-Entwicklung.
+## Technical Focus Areas
 
-Die entwickelten Funktionen wurden in einer experimentellen Umgebung integriert und evaluiert. Eine mögliche produktive Übernahme in die Plattform liegt in der Entscheidung der Projektverantwortlichen.
+- Development and design of REST APIs
+- Integration of multiple specialized database systems
+- Processing and analysis of large data volumes
+- Scalable storage architecture
+- Containerized development and runtime environment
 
-## Status
-Funktionaler Prototyp mit Fokus auf Architektur, Datenanalyse und Systemdesign.
+---
+
+## Project Context
+
+This project was developed as part of the *Software Engineering Project* module at the Technical University of Applied Sciences Mittelhessen.
+
+The implementation was carried out by a team of seven people, divided into frontend and backend development.
+The developed features were integrated and evaluated in an experimental environment.
+A possible productive integration into the platform remains subject to the decision of the project supervisors.
+
+--- ## Status
+
+ Functional prototype with a focus on architecture, data analytics, and system design.
+
