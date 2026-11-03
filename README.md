@@ -7,7 +7,7 @@
 ![S3 Storage](https://img.shields.io/badge/S3-Object_Storage-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-# MICRO – Analytics and Filesystem Platform
+# MICRO - Analytics and Filesystem Platform
 
 ## Overview
 
